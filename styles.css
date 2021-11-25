@@ -45,6 +45,7 @@ main {
 .header-info-2 {
   display: flex;
   align-items: flex-end;
+  list-style: none;
 }
 
 .item a {
@@ -59,6 +60,10 @@ main {
   text-transform: uppercase;
   margin-left: 32px;
   text-decoration: none;
+}
+
+.item:first-child {
+  margin-right: 0px;
 }
 
 .content {
@@ -129,7 +134,7 @@ main {
 
 .info-block {
   text-align: center;
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -177,23 +182,25 @@ main {
 }
 
 .inputs input {
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
   margin-right: 2px;
 }
 
 .message {
-  width: 50%;
+  width: 60%;
   align-items: flex-end;
 }
 
 .message textarea {
   margin-top: 20px;
   height: 140px;
-  width: 80%;
+  width: 60%;
+  margin-left: 3px;
 }
 
 .text-input {
+  padding-left: 4px;
   font-family: Montserrat;
   font-size: 10px;
   font-style: normal;
